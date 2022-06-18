@@ -1,13 +1,13 @@
+import { ProductStyle } from "../styles/ProductStyle"
+
 export default function Products({ products }) {
   const { title, image, price } = products.attributes
-  // console.log('products', products);
-  // console.log('black', title);
-  // image.data.attributes.formats.small
+
   return (
-    <div>
+    <ProductStyle>
       <img src={image.data.attributes.formats.small.url} />
-      <h1>{title}</h1>
-      <h1>{price}</h1>
-    </div>
+      <h2>{title}</h2>
+      <h2>{price}</h2>
+    </ProductStyle>
   )
 }

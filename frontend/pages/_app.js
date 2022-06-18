@@ -1,7 +1,9 @@
 import '../styles/globals.css'
 import { Provider, createClient } from 'urql';
 
-const client = createClient({ url: 'http://localhost:1337/graphql' });
+// Create a env file to hide the url while developing
+// Connect to the db by creating a client
+const client = createClient({ url: process.env.NEXT_PUBLIC_BACKEND_API });
 
 function MyApp({ Component, pageProps }) {
   return (

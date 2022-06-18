@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { useQuery } from 'urql';
 import { PRODUCT_QUERY } from '../lib/query';
 import Products from '../components/products';
+import { Gallery } from '../styles/Gallery';
 
 export default function Home() {
   // Fetch the data using useQuery
@@ -11,12 +12,10 @@ export default function Home() {
   // Conditional rendering based on status
   if (fetching) return <h1>...Loading</h1>
   if (error) return <h1>There is an error! {error.message}</h1>
-  // console.log(data.products.data);
 
   // Create a component that will be the title and price and image of the data
   // Loop through the data.products.data array to create these components
   const products = data.products.data;
-  // console.log(products);
 
   return (
     <div>
@@ -28,9 +27,11 @@ export default function Home() {
 
       <main>
         <h1>Green Thumb Club</h1>
+        <Gallery>
         {products.map(element => (
           <Products key={element.attributes.slug} products={element}/>
         ))}
+        </Gallery>
       </main>
     </div>
   )
