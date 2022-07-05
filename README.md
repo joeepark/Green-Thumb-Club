@@ -1,7 +1,7 @@
 # Green-Thumb-Club
 
 Built on the tech stack:
-Strapi
+Strapi.js
 Next.js
 GraphQL
 CSS
