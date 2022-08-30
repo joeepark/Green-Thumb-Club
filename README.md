@@ -4,7 +4,7 @@ https://green-thumb-club.vercel.app/
 ## Green Thumb Club
 Green Thumb Club is an e-commerce platform where users can easily buy and sell their plant collection online.
 
-<img src='./frontend/public/GTC.png'>
+<img src='./frontend/assests/GTC.png'>
 
 Built on the tech stack:
 Strapi.js
