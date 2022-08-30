@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "images",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "Product",
+    "singularName": "image",
+    "pluralName": "images",
+    "displayName": "images",
     "description": ""
   },
   "options": {
@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -26,15 +23,8 @@
         "audios"
       ]
     },
-    "content": {
-      "type": "richtext"
-    },
-    "price": {
-      "type": "decimal"
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "name"
+    "name": {
+      "type": "string"
     }
   }
 }

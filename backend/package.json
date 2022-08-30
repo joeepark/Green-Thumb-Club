@@ -1,27 +1,29 @@
 {
-  "name": "backend",
+  "name": "my-project",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.2.0",
-    "@strapi/plugin-i18n": "4.2.0",
-    "@strapi/plugin-users-permissions": "4.2.0",
-    "@strapi/provider-upload-cloudinary": "^4.2.0",
-    "@strapi/strapi": "4.2.0",
-    "better-sqlite3": "7.4.6"
+    "@strapi/plugin-graphql": "^4.3.4",
+    "@strapi/plugin-i18n": "4.3.4",
+    "@strapi/plugin-users-permissions": "4.3.4",
+    "@strapi/provider-upload-cloudinary": "^4.3.6",
+    "@strapi/strapi": "4.3.4",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.8.0",
+    "pg-connection-string": "^2.5.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "53c09300-34b7-445b-8be0-73f0937e8766"
+    "uuid": "2af0d958-d33f-43be-98e1-28609e0d7602"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",

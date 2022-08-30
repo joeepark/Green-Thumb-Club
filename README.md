@@ -1,5 +1,8 @@
-# Green Thumb Club
-Green Thumb Club is a passion project of mine. Coming from an e-commerce background I wanted to have fun creating my own e-commerce platform where users can easily buy and sell their plant collection online. I am currently going through iterations of this project and I plan to create a finished project soon.
+## Try testing a live demo of the app!
+https://green-thumb-club.vercel.app/
+
+## Green Thumb Club
+Green Thumb Club is an e-commerce platform where users can easily buy and sell their plant collection online.
 
 <img src='./frontend/public/GTC.png'>
 
@@ -10,5 +13,3 @@ GraphQL
 CSS
 HTML
 Cloudinary
-urql
-styled-components
