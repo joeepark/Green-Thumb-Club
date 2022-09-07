@@ -1,4 +1,5 @@
 ## Try testing a live demo of the app!
+If the link times out it is because the server is deployed using Heroku's free plan. Please try refreshing the page for a live demo.
 https://green-thumb-club.vercel.app/
 
 ## Green Thumb Club
