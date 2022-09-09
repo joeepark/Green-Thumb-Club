@@ -1,9 +1,6 @@
-import Navbar from '../components/Navbar';
-
 export default function about() {
   return (
     <div className="about">
-      <Navbar />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione a porro deserunt, pariatur
         sit veritatis iste enim impedit esse tempore repudiandae sed rem, sunt ut animi. Vitae
